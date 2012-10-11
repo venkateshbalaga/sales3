@@ -18,11 +18,11 @@ development:
   adapter: mysql
   encoding: utf8
   reconnect: false
-  database: salesforce_integration_development
+  database: sales_development
   pool: 5
-  username: root
-  password: exleaz123
-  host: localhost
+  username: sales
+  password: sales123
+  host: 10.130.6.178
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -31,18 +31,18 @@ test:
   adapter: mysql
   encoding: utf8
   reconnect: false
-  database: salesforce_integration_test
+  database: sales_test
   pool: 5
-  username: root
-  password: exleaz123
-  host: localhost
+  username: sales
+  password: sales123
+  host: 10.130.6.178
 
 production:
   adapter: mysql
   encoding: utf8
   reconnect: false
-  database: salesforce_integration_production
+  database: sales_production
   pool: 5
-  username: root
-  password: exleaz123
-  host: localhost
+  username: sales
+  password: 123
+  host: 10.130.6.178
